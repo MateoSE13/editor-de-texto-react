@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import ThemeSelector from './ThemeSelector'; // Asegúrate de que la ruta sea correcta
+import ThemeSelector from './ThemeSelector'; 
 import './TextEditor.css'; // Asegúrate de que este archivo CSS exista
 
 const TextEditor: React.FC = () => {

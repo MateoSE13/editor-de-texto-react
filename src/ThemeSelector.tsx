@@ -29,9 +29,9 @@ const ThemeSelector: React.FC<Props> = ({ onColorChange, toggleBold, toggleItali
 
       {/* Format buttons */}
       <div className="format-buttons">
-        <button onClick={toggleBold} className="format-button">B</button>
-        <button onClick={toggleItalic} className="format-button">I</button>
-        <button onClick={toggleUnderline} className="format-button">U</button>
+        <button onClick={toggleBold} className="format-button">N</button>
+        <button onClick={toggleItalic} className="format-button">C</button>
+        <button onClick={toggleUnderline} className="format-button">S</button>
       </div>
     </div>
   );
